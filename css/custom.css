@@ -1,0 +1,339 @@
+:root{
+  --bg-color: #164E6F;
+  --sectionBgOne: #f2eeee;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  background-color: var(--bg-color);
+}
+
+.logo-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container .logo img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-content h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.top-content h2{
+  color: #fff;
+  font-weight: bold;
+}
+
+.top-content .para-1{
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 0.5rem
+}
+
+.top-content .para-2{
+  color: #fff;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+
+.notice-section{
+  background-color: #D9E9E5;
+}
+
+.news-sliding{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+}
+.notice-carosal-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+.breaking-caret:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-left: 15px solid var(--bg-color);
+  border-bottom: 16px solid transparent;
+  position: absolute;
+  right: -15px;
+  top: 0;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+}
+
+.nav-item .nav-link{
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu li a{
+  padding: 10px 5px !important;
+
+}
+
+.dropdown-menu li a:hover{
+  background-color: var(--bg-color);
+  color: #fff;
+}
+
+
+/* SLIDING SECTION */
+.slide-img-height{
+  max-height: 430px;
+  background-size: contain;
+}
+/* END SLIDING SECTION */
+
+/* welcome section */
+.welcome-section{
+  background-color: var(--bg-color);
+  padding: 0.5rem  ;
+}
+.welcome-title{
+  text-align: center;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.welcome-body{
+  padding: 1rem 0.8rem;
+  line-height: 1.5;
+  text-align: justify;
+  background-color: var(--sectionBgOne);
+}
+
+.welcome-body p{
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.welcome-btn{
+  background-color: var(--sectionBgOne);
+  padding: 0.5rem 1rem;
+}
+/* end welcome section */
+
+/* notice section */
+.welcome-body ul li img{
+  padding: 0px 5px;
+  width: 16px;
+}
+
+.welcome-body ul li a{
+  color: #000;
+}
+
+.welcome-body ul li a:focus{
+  font-weight: bold;
+}
+
+.welcome-body ul li a:hover{
+  text-decoration: underline;
+}
+
+/* START SCHOOL ABOUT SECTION */
+.about-section h2{
+  
+}
+
+.about-title{
+  background-color: var(--bg-color);
+  
+}
+
+.about-text{
+  background-color: var(--sectionBgOne);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  vertical-align: baseline;
+
+}
+.about-text p{
+  line-height: 2.5;
+}
+.about-image-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-section img{
+  width: 100%;
+  max-width: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #bdb2b2;
+  padding: 5px;
+}
+
+/* profile pic */
+
+.card{
+  /* background-color: #164E6F; */
+  border: 5px solid #164E6F;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  width: 100%;
+  max-width: 60%;
+  height: auto;
+}
+
+/* FOOTER SECTION START */
+/* TOP FOOTER START */
+.top-footer-section{
+  background-color: var(--bg-color);
+  padding-bottom: 2rem;
+}
+
+.footer-logo-container{
+  margin-top: 2rem;
+}
+
+.footer-logo-container .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: red; */
+  padding-left: 1rem;
+}
+
+.footer-logo-container .logo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer-partOne-text{
+  line-height: 1.5;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.footer-partSecound-text,
+.footer-partThird-text{
+  margin-top: 4.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.emergency-link,
+.school-location{
+  margin-top: 4.5rem;
+}
+
+.emergency-link ul li a{  
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px dashed #8c8b8b;
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.emergency-link ul li a:hover{
+  text-decoration: underline;
+}
+
+/* TOP FOOTER END */
+
+/* BOTTOM FOOTER START */
+.bottom-footer{
+  background-color: #075e91;
+  padding: 1rem 0;
+}
+
+.bottom-footer-start,
+.bottom-footer-center,
+.bottom-footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+.bottom-footer-start{
+  color: #fff;
+}
+
+.bottom-footer-start p a{
+  color: yellowgreen;
+}
+
+.bottom-footer-center{
+  
+}
+
+.bottom-footer-center ul li{
+  display: inline-flex;
+  color: #2fe6b8da;
+  
+}
+
+.bottom-footer-center ul li a{
+  display: block;
+  color: #09c2b2;
+  
+}
+
+.bottom-footer-center ul li a:hover{
+  text-decoration: underline;
+  color: #04968a;
+}
+
+.bottom-footer-end a{
+  color: #d7e60b9f;
+  text-decoration: none;
+}
+
+.bottom-footer-end a:hover{
+  text-decoration: underline;
+}
+
+
+/* BOTTOM FOOTER END */
+/* FOOTER SECTION END */

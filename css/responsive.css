@@ -1,0 +1,178 @@
+/* lg 1025px to 1200px */
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    
+}
+
+/* md 769px to 1024px bs-991px*/
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    
+}
+
+/* iPads, Tablets small devices */
+@media only screen and (max-width: 768px) and (min-width: 577px){
+    
+
+}
+
+
+/* Mobile devices x-small */
+@media only screen and (max-width: 576px){
+#main-wrapper .header{
+    padding-top: 1rem !important;
+}
+
+.col-sm-2{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.logo-container .logo img {
+        width: 100%;
+        max-width: 80px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      .top-content{
+        padding-top: 1.5rem !important;
+      }
+
+    .top-content h1{
+        font-size: 22px;
+        /* color: #000; */
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 0px;
+    }
+
+    .top-content h2{
+        font-size: 18px;
+        color: #85f00b !important;
+    }
+
+    .top-content .para-1{
+      font-size: 12px;
+      padding-top: 0.5rem
+    }
+    
+    .top-content .para-2{
+      padding: 16px 0;
+      font-size: 12px;
+    }
+   
+    .breaking-caret span{
+      font-size: 12px;
+    }
+
+    
+
+    .breaking-caret:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 16px solid transparent;
+        border-left: 15px solid var(--bg-color);
+        border-bottom: 16px solid transparent;
+        position: absolute;
+        right: -0px;
+        top: 0;
+      }
+
+      .news-sliding .carousel-inner .carousel-item a span{
+        margin: 0 0px !important;
+        font-size: 0.5rem !important;
+      }
+
+      .news-sliding .carousel-inner .carousel-item a + a{
+        font-size: 0.5rem;
+      }
+
+      .navbar{
+        margin-top: 0rem !important;
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+      }
+
+      .main-section .row{
+        margin-top: 0 !important;
+      }
+      .slide-img-height{
+        max-height: 250px;
+        background-size: contain;
+      }
+
+      .welcome-title h2{
+        font-size: 18px !important;
+      }
+
+      .welcome-body p{
+        font-size: 14px;
+      }
+
+      .welcome-body ul li a{
+        font-size: 12px;
+      }
+
+      .about-title{
+        font-size: 16px;
+      }
+      .about-text p{
+        font-size: 12px;
+      }
+
+      .footer-logo-container{
+        margin-top: 1.5rem !important;
+      }
+
+      .footer-logo-container .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer-partSecound-text, 
+      .footer-partThird-text{
+        margin-top: 2.5rem;
+      }
+
+      .footer-partOne-text,
+      .footer-partSecound-text, 
+      .footer-partThird-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .emergency-link,
+      .school-location{
+      margin-top: 12px;
+        }
+
+        .footer-partSecound-text,
+        .footer-partThird-text{
+          margin-top: 2rem;
+          font-size: 16px;
+          font-weight: bold;
+          }
+
+
+        .emergency-link ul li a{  
+          text-decoration: none;
+          padding: 10px 0;
+          border-bottom: 1px dashed #8c8b8b;
+          display: block;
+          font-size: 12px;
+          color: #fff;
+      }
+
+
+     .school-location{
+      display: flex;
+      justify-content: center;
+     }
+
+
+}
